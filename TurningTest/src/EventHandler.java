@@ -35,23 +35,27 @@ public class EventHandler {
 
 
 
-    String gameGoal = getRandomOutcome();
+//    String gameGoal = getRandomOutcome();
 
 
-    public static String getRandomOutcome() {
-        // Create a Random object
-        Random random = new Random();
-
-        // Generate a random number between 0 and 1
-        int randomNumber = random.nextInt(2); // Generates 0 or 1
-
-        // Define your two possible outcomes
-        String outcome1 = "Your job is to convince the judge that you are the human.";
-        String outcome2 = "Your job is to convince the judge that you are the AI.";
-
-        // Use the random number to select one of the outcomes
-        return (randomNumber == 0) ? outcome1 : outcome2;
-    }
+ //   public static String getRandomOutcome() {
+//        // Create a Random object
+//        Random random = new Random();
+//
+//        // Generate a random number between 0 and 1
+//        int randomNumber = random.nextInt(2); // Generates 0 or 1
+//
+//        // Define your two possible outcomes
+//        String outcome1 = "Your job is to convince the judge that you are the human.";
+//        String outcome2 = "Your job is to convince the judge that you are the AI.";
+//
+//
+//        return (randomNumber == 0) ? outcome1 : outcome2;
+//    }
+//assign playerPhoneNumber to player1 or player2 randomly
+//send a message to the playerPhoneNumber saying "you are player1" or "you are player2"
+    //assign the opposite to chatbotPhoneNumber
+    //send a message to the chatbotPhoneNumber saying "you are player1" or "you are player2"
 
 
 
