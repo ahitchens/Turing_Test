@@ -2,7 +2,6 @@
 import java.util.Random;
 
 public class Game {
-    //why string? Object with props? player class assigned with number and after add "player 1"
     private String judgePhoneNumber;
     private String playerPhoneNumber;
 
@@ -13,7 +12,7 @@ public class Game {
         this.judgePhoneNumber = judgePhoneNumber;
         this.playerPhoneNumber = playerPhoneNumber;
         Random random   = new Random();
-        this.playerAHuman = random.nextInt(2) == 1  ? true :  false;
+        this.playerAHuman = random.nextInt(2) == 1;
 
         String outcome1 = "Your job is to convince the judge that you are the human.";
         String outcome2 = "Your job is to convince the judge that you are the AI.";
